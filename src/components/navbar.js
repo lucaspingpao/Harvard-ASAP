@@ -27,9 +27,9 @@ const NavBar = () => {
     <div style={pageStyles}>
       <Image style={bannerStyles} src={Title}></Image>
       <hr/>
-      <Flex as="nav">
+      <Flex as="nav" style={{fontSize: "14px"}}>
       <Link href="/"><Image src={Name} style={logoStyles}></Image></Link>
-        <NavLink href="/" p={2}>Home</NavLink>
+        <NavLink  href="/" p={2}>Home</NavLink>
         <NavLink href="/about" p={2}>About</NavLink>
         <NavLink href="/project" p={2}>Projects</NavLink>
         <NavLink href="/events" p={2}>Events</NavLink>

@@ -4,7 +4,7 @@ import Welcome from '../images/welcome.png'
 import NavBar from '../components/navbar.js'
 import Footer from '../components/footer.js'
 import {Box, Flex, Link, NavLink} from 'theme-ui'
-import * as Styles from './styles.js'
+import * as Styles from '../styles/styles.js'
 
 // local styles
 const headingStyles = {

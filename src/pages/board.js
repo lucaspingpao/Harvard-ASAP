@@ -2,7 +2,7 @@ import * as React from "react"
 import {Box, Flex, Card, NavLink, Image, Text, Grid, Heading} from 'theme-ui'
 import NavBar from '../components/navbar.js'
 import Footer from '../components/footer.js'
-import * as Styles from './styles.js'
+import * as Styles from '../styles/styles.js'
 import Twisted from "../images/twisted.jpg"
 
 // local styles

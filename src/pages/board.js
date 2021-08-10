@@ -41,7 +41,7 @@ const events = () => {
       <Heading variant='styles.h3' style={{fontSize: "2vw"}}>{member.position}</Heading>
         <Heading variant='styles.h4' style={{fontSize: "2vw"}}>{member.name}</Heading>
         <br/><Text style={{fontSize: "1.5vw"}}>Year: {member.year}</Text>
-        <br/><Text style={{fontSize: "1.5vw"}}>Favorite Art: {member.art}</Text>
+        <br/><Text style={{fontSize: "1.5vw"}}>Art: {member.art}</Text>
         <br/><Text style={{fontSize: "1.5vw"}}>Fun Fact: {member.funFact}</Text>
       </Box>
     </Card>
@@ -55,7 +55,7 @@ const events = () => {
       
       <Box style={Styles.cardBoxStyles}><h2>Current Board: 2021-2022</h2></Box>
       <Box style={Styles.cardBoxStyles}>{boardCards}</Box>
-      <Box style={Styles.cardBoxStyles}><h2>Alumni: 2021-2022</h2></Box>
+      <Box style={Styles.cardBoxStyles}><h2>Alumni</h2></Box>
       <Box style={Styles.cardBoxStyles}>{boardCards}</Box>
       <Footer/>
     </main>

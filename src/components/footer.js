@@ -26,7 +26,7 @@ const Footer = () => {
     <div style={footerStyles}>
     <hr style={hrStyles}/><br/>
 
-    <br/>Asian Students Arts Project
+    <br/>Asian Student Arts Project
     <br/>© 2018 - 2021
     <br/>Built with GatsbyJS
     <Link href="https://www.gatsbyjs.com">

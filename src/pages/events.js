@@ -11,12 +11,12 @@ import Twisted from "../images/twisted.jpg"
 const projectInfos = [
   {
     title: "Sushi & Samosas: Open Mic Night",
-    date: "February 2020",
+    date: "September 2019",
     photo: Twisted
   },
   {
     title: "Wave Launch Party: Open Mic Night",
-    date: "Spring 2019",
+    date: "February 2020",
     photo: Twisted
   }
 ]

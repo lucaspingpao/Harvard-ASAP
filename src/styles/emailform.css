@@ -1,0 +1,25 @@
+form {
+    border: 3px solid black;
+    width: 50%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.inputBox {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+@media (max-width: 600px) {
+    form {
+        width: 100%
+    }
+}
+
+.formBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px
+}

@@ -3,6 +3,7 @@ import {Box, Flex, Card, NavLink, Image, Text, Grid, Heading} from 'theme-ui'
 import NavBar from '../components/navbar.js'
 import Footer from '../components/footer.js'
 import '../styles/styles.css'
+import OdessaDeng from "../images/OdessaDeng.jpg"
 import KarinaCowperthwaite from "../images/KarinaCowperthwaite.jpeg"
 import VincentPan from "../images/VincentPan.jpg"
 import NikitaNair from "../images/NikitaNair.jpeg"
@@ -10,12 +11,20 @@ import LucasPao from "../images/LucasPao.jpg"
 import SophieKim from "../images/SophieKim.jpeg"
 import JuliaGrullon from "../images/JuliaGrullon.jpg"
 import JuliaRiew from "../images/JuliaRiew.jpeg"
+import ChloeYu from "../images/ChloeYu.jpeg"
 
 // local styles
 
 
 // data
 const boardInfos = [
+  {
+    position: "President",
+    name: "Odessa Deng",
+    year: "Junior",
+    art: "Music, Theater, Dance",
+    photo: OdessaDeng
+  },
   {
     position: "President",
     name: "Karina Cowperthwaite",
@@ -59,11 +68,18 @@ const boardInfos = [
     photo: JuliaGrullon
   },
   {
-    position: "President Emeritus",
+    position: "President Emeritus (2019)",
     name: "Julia Riew",
     year: "Senior",
     art: "Music, Theater",
     photo: JuliaRiew
+  },
+  {
+    position: "President Emeritus (2020)",
+    name: "Chloe Yu",
+    year: "Senior",
+    art: "Visual Arts, Theater, Dance, Photography",
+    photo: ChloeYu
   }
 ]
 
